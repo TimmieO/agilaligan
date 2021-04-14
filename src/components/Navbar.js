@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, BrowserRouter as Router, Switch, Link, Redirect } from "react-router-dom";
 import "../css/navbar.css"
+import logo from '../img/logo.png';
 
 class Navbar extends Component {
 
@@ -20,12 +21,12 @@ class Navbar extends Component {
             <ul className="header-ul">
               <li className="nav-li">
                 <Link to="/">
-                  <span className="nav-li-icon">ICON</span>
+                  <img src={logo} className="header-logo"/>
                 </Link>
               </li>
               <li className="nav-li">
                 <Link to="/">
-                  <span className="nav-li-devs">Devs &#8801;</span>
+                  <span className="nav-devs-span">Devs &#8801;</span>
                 </Link>
               </li>
             </ul>

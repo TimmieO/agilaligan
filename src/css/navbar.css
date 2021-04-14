@@ -1,3 +1,4 @@
+/*Whole header/Nav container*/
 header{
   width: 100%;
   height: 10vh;
@@ -16,14 +17,15 @@ header{
   color: inherit;
 }
 
-.nav-li-icon{
+/*Header Nav Items*/
+.header-logo{
   position: absolute;
   left: 0;
+  height: auto;
+  width: 5%;
 }
-.nav-li-devs{
+.nav-devs-span{
   position: absolute;
   right: 0;
-
+  font-size: 3vh;
 }
-
-.nav-item-span{}
