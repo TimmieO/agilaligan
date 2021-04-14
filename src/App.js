@@ -1,32 +1,36 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter as Router, Switch, Link, Redirect } from "react-router-dom"
 import "./css/main.css"
-
 import Navbar from './components/Navbar'
+import Home from './Pages/Home';
+import Alexander from './Pages/Profiles/Alexander';
+import Kevin from './Pages/Profiles/Kevin';
+import Ossian from './Pages/Profiles/Ossian';
+import Sofia from './Pages/Profiles/Sofia';
+import Timmie from './Pages/Profiles/Timmie';
+import { 
+  Route, 
+  BrowserRouter as Router, 
+  Switch,
+  } from "react-router-dom";
 
-class App extends Component {
+export default function App() {
 
-  constructor() {
-    super();
-    this.state = {
-    }
-  }
-  componentDidMount(){
-  }
+ 
 
-  render() {
+ 
     return (
       <Router>
         <div className="App">
           <Navbar />
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/profile-alex" component={Alexander} />
+              <Route path="/profile-kevin" component={Kevin} />
+              <Route path="/profile-ossian" component={Ossian} />
+              <Route path="/profile-sofia" component={Sofia} />
+              <Route path="/profile-timmie" component={Timmie} />
+            </Switch>
         </div>
       </Router>
     );
   }
-}
-
-export default App
-
-
-
-
