@@ -1,0 +1,47 @@
+
+
+
+
+.link-container {
+    padding-top: 2vw;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+header {
+    padding: 0vw;
+}
+
+nav {
+    align-self: center;
+    padding-top: 0vw;
+    margin-right: 1vw;
+    border: 1px solid none;
+}
+
+ul {
+    display: flex;
+    border: 1px solid none;
+}
+
+li {
+    margin-right: 1vw;
+    overflow: hidden;
+    border: 1px solid none;
+}
+
+.router-link, span {
+    text-decoration-line: underline;
+    text-decoration-color: ghostwhite;
+    color: black;
+    font-size: 1.3vw;
+    border: 1px solid none;
+    transition-duration: 200ms;
+}
+    .router-link:hover {
+        transition-duration: 200ms;
+        opacity: 70%;
+    }
