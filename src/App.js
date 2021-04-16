@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./css/main.css"
+import "./css/profile.css"
 import Navbar from './components/Navbar'
 import Home from './Pages/Home';
 import Alexander from './Pages/Profiles/Alexander';
