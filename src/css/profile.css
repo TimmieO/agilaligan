@@ -11,19 +11,19 @@ h2 {
     font-size: 72px;
     text-align: center;
 }
-  
+
 hr {
     margin: 10px;
     border-bottom: 5px solid #213A60;
     border-radius: 20px;
     width: 15%;
     align-self: center;
+    margin-bottom: 70px;
 }
 
 .cardProfile {
     background: rgb(255, 255, 255) !important;
     border-radius: 50px;
-    margin-top: 70px;
     margin-bottom: 70px;
     width: 80%;
     height: 500px;
@@ -50,9 +50,103 @@ hr {
 }
 
 .cardText h3 {
+    text-align: center;
     font-size: 50px;
 }
 
+.cardText p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .icons i {
+    margin: 10px;
+}
+
+.icons p{
+    font-size: 80px;
+    margin: -5px 0px 0px 10px;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.readMore {
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    justify-self: center;
+    width: 175px;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    background-color: #2CA5A5;
+    color: white;
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+}
+
+.readMore:hover {
+    box-shadow: 5px 5px #213A60;
+}
+
+.cardProfileReverted {
+    background: rgb(255, 255, 255) !important;
+    border-radius: 50px;
+    margin-bottom: 70px;
+    width: 80%;
+    height: 500px;
+    box-shadow: 8px 8px #213A60;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    transition: ease-in-out 0.3s;
+}
+
+.cardProfileReverted:hover {
+    transform: scale(1.04);
+    box-shadow: 15px 15px #213A60;
+}
+
+.cardProfileReverted img {
+    margin: 0px 100px 0px 100px;
+    border-radius: 100%;
+}
+
+.cardTextReverted {
+    width: 50%;
+}
+
+.cardTextReverted h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cardTextReverted p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.iconsReverted {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.iconsReverted i {
     margin: 10px;
 }

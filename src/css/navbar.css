@@ -3,6 +3,7 @@
 /*Setting style of list*/
 .header-navbar {
   z-index: 2;
+  position: fixed;
   width: 100%;
   height: 7vh;
   background-color: #4C4C4D;
@@ -14,6 +15,7 @@
 .nav-logo-container {
   text-decoration: none;
   color: inherit;
+  padding-left: 15px !important;
 }
 
 /*Header Nav Items*/
@@ -86,6 +88,9 @@
   top: 0;
   transform: rotate(90deg);
 }
+.header-devs-container .toggler:checked ~ .burger-menu > div{
+  transform: rotate(225deg);
+}
 
 /* Rotate On Hover When Checked */
 .header-devs-container .toggler:checked:hover ~ .burger-menu > div {
@@ -93,7 +98,7 @@
 }
 
 .header-devs-container .toggler:checked ~ .navbar-dropdown {
-  visibility: visible;
+  visibility:visible;
 }
 
 .header-devs-container .toggler:checked ~ .navbar-dropdown > div {
@@ -121,14 +126,14 @@
 }
 
 .header-devs-container .navbar-dropdown > div {
-  background: grey;
+  background: #4C4C4D;
   height: auto;
   display: flex;
   flex: none;
   align-items: center;
   justify-content: center;
-  transform: scale(0);
-  transition: all 0.4s ease;
+  transform: translateY(-320px);
+  transition: all 0.5s ease;
 }
 
 .header-devs-container .navbar-dropdown > div > div {
@@ -149,4 +154,20 @@
   color: inherit;
   text-decoration: none;
   transition: color 0.4s ease;
+}
+
+.dev-link{
+  display: inline-block;
+}
+.dev-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width .4s ease-in-out;
+}
+
+.dev-link:hover:after {
+  width: 100%;
 }

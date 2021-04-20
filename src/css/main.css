@@ -3,17 +3,8 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.banner{
-  position: absolute;
-  height: 100vh;
-  width: 99.1vw;
-  margin: 0;
-  padding: 0;
-  background: url("../img/coworkers-blur.jpg");
+body {
+  background: url("../img/home-fig.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -21,6 +12,10 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -40,10 +35,8 @@ h1 {
 
 .banner-text {
   text-align: center;
-  background-color: hsla(240, 1%, 30%, 0.801);
-  padding: 80px 40px 80px 40px;
-  border-radius: 10px;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
 }
 
 .banner-text p {
@@ -55,13 +48,15 @@ h1 {
   font-size: 60px;
   margin-top: 40px;
   align-items: center;
-  color: hsla(240, 1%, 30%, 0.801);
-  border: 5px solid hsla(240, 1%, 30%, 0.801);
+  color: aliceblue;
+  border: 5px solid aliceblue;
   border-radius: 100px;
-  padding: 2px 20px 6px 20px;
+  padding: 6px 20px 6px 20px;
+  transition: ease-in-out 0.2s;
 }
 
 .icon:hover {
-  color: #818181;
-  border: 5px solid #818181;
+  color: #2CA5A5;
+  border: 5px solid #2CA5A5;
+  transform: scale(1.04);
 }

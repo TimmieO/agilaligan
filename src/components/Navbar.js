@@ -13,23 +13,23 @@ export default function Navbar() {
     <nav className="header-navbar">
       <Link to="/">
         <div className="nav-logo-container">
-         <img src={logo} className="header-logo"/> 
+         <img src={logo} alt="Logo" className="header-logo"/> 
         </div>
       </Link>
       <div className="header-devs-container">
         <input type="checkbox" className="toggler" />
         
         <span className="nav-devs-span">Devs</span>
-        <div class="burger-menu"><div></div></div>
-        <div class="navbar-dropdown">
+        <div className="burger-menu"><div></div></div>
+        <div className="navbar-dropdown">
           <div>
             <div>
               <ul>
-                <li><a href="#">Alexander</a></li>
-                <li><a href="#">Ossian</a></li>
-                <li><a href="#">Sofia</a></li>
-                <li><a href="#">Kevin</a></li>
-                <li><a href="#">Timmie</a></li>
+                <li><a className="dev-link" href="/Alexander">Alexander</a></li>
+                <li><a className="dev-link" href="/Sofia">Sofia</a></li>
+                <li><a className="dev-link" href="/Ossian">Ossian</a></li>
+                <li><a className="dev-link" href="/Kevin">Kevin</a></li>
+                <li><a className="dev-link" href="/Timmie">Timmie</a></li>
               </ul>
             </div>
           </div>
