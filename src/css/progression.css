@@ -1,0 +1,86 @@
+.progression-inner-container{
+    width: 30%;
+}
+
+.textStyling {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.myProgress {
+    width: 100%;
+    background-color: #2CA5A5;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.myBarHtml {
+    width: 100%;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarHtml 2s;
+}
+
+@keyframes myBarHtml{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.myBarCSS {
+    width: 80%;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarCSS 2s;
+    
+}
+
+@keyframes myBarCSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.myBarJs {
+    width: 45%;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarJs 2s;
+   
+}
+
+@keyframes myBarJs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+.myBarReact {
+    width: 65%;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarReact 2s;
+    
+}
+
+@keyframes myBarReact{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}

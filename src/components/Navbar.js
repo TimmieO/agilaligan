@@ -25,11 +25,11 @@ export default function Navbar() {
           <div>
             <div>
               <ul>
-                <li><a className="dev-link" href="/Alexander">Alexander</a></li>
-                <li><a className="dev-link" href="/Sofia">Sofia</a></li>
-                <li><a className="dev-link" href="/Ossian">Ossian</a></li>
-                <li><a className="dev-link" href="/Kevin">Kevin</a></li>
-                <li><a className="dev-link" href="/Timmie">Timmie</a></li>
+                <li><a className="dev-link" href="/profile-alex">Alexander</a></li>
+                <li><a className="dev-link" href="/profile-sofia">Sofia</a></li>
+                <li><a className="dev-link" href="/profile-ossian">Ossian</a></li>
+                <li><a className="dev-link" href="/profile-kevin">Kevin</a></li>
+                <li><a className="dev-link" href="/profile-timmie">Timmie</a></li>
               </ul>
             </div>
           </div>

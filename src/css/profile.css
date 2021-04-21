@@ -43,6 +43,8 @@ hr {
 .cardProfile img {
     margin: 0px 100px 0px 100px;
     border-radius: 100%;
+    width: 370px;
+    height: 370px;
 }
 
 .cardText {
@@ -124,6 +126,8 @@ hr {
 .cardProfileReverted img {
     margin: 0px 100px 0px 100px;
     border-radius: 100%;
+    width: 370px;
+    height: 370px;
 }
 
 .cardTextReverted {

@@ -1,0 +1,69 @@
+.backgroundWhite {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.textStyle {
+    background-color: white;
+    color: black;
+}
+
+.picture {
+    border-radius: 500px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: start;
+    justify-content: space-between;
+    width: 55%;
+    
+
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+
+    background-color: rgb(14, 12, 12);
+    border: solid black 1px;
+    border-radius: 60px;
+    
+    
+}
+
+.iconLogo {
+    color: white;
+
+
+}
+
+.text {
+    padding: 24px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hrStyle {
+    margin: 10px;
+    border-bottom: 5px solid #213A60;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 10% !important;
+}

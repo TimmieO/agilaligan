@@ -1,0 +1,20 @@
+.info-container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.info-inner-container{
+  width: 60%;
+}
+.info-text-container h2,
+.info-text-container p{
+  margin-bottom: 0.5em;
+}
+.info-text-container h2{
+  color: black;
+  text-align: left !important;
+}
+
+.widthPlaceholder {
+  width: 10%;
+}

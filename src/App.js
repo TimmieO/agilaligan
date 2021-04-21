@@ -8,6 +8,7 @@ import Kevin from './Pages/Profiles/Kevin';
 import Ossian from './Pages/Profiles/Ossian';
 import Sofia from './Pages/Profiles/Sofia';
 import Timmie from './Pages/Profiles/Timmie';
+import Footer from "./components/Footer";
 import { 
   Route, 
   BrowserRouter as Router, 
@@ -15,10 +16,6 @@ import {
   } from "react-router-dom";
 
 export default function App() {
-
- 
-
- 
     return (
       <Router>
         <div className="App">
@@ -31,6 +28,7 @@ export default function App() {
               <Route path="/profile-sofia" component={Sofia} />
               <Route path="/profile-timmie" component={Timmie} />
             </Switch>
+          <Footer />
         </div>
       </Router>
     );

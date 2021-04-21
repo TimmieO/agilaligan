@@ -33,7 +33,7 @@
 }
 .nav-devs-span{
   color: white;
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
 
 .toggler{
@@ -54,6 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 7px !important;
 }
 /* Hamburger Line */
 .header-devs-container .burger-menu > div {

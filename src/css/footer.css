@@ -1,0 +1,13 @@
+.footer{
+    background: #4C4C4D !important;
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+.copyright-spans{
+    font-size: 15px;
+    font-weight: bold;
+}
