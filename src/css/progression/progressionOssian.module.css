@@ -1,0 +1,73 @@
+.myBarHtml {
+    width: 0;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarHtml 2s normal forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes myBarHtml{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.myBarCSS {
+    width: 0;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarCSS 2s normal forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes myBarCSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.myBarJs {
+    width: 0;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarJs 2s normal forwards;
+    animation-delay: 1.6s;
+}
+
+@keyframes myBarJs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+.myBarReact {
+    width: 0;
+    height: 25px;
+    background-color: #213A60;
+    border-radius: 50px;
+    animation: myBarReact 2s normal forwards;
+    animation-delay: 2s;
+}
+
+@keyframes myBarReact{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+

@@ -6,15 +6,30 @@
 .info-inner-container{
   width: 60%;
 }
-.info-text-container h2,
 .info-text-container p{
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 .info-text-container h2{
   color: black;
   text-align: left !important;
+  font-size: 55px;
 }
 
 .widthPlaceholder {
   width: 10%;
+}
+
+.imgOverflow {
+  overflow: hidden;
+}
+
+.info-text-container img {
+  height: auto;
+  width: 100%;
+  transition: ease-in-out 0.4s;
+  padding-bottom: 50px;
+}
+
+.info-text-container img:hover {
+  transform: scale(1.1);
 }

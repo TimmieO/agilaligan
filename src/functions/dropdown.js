@@ -3,11 +3,12 @@ export function doDropdown(){
 }
 
 export function dropdownEventHandler(){
-    let devsSpan = document.querySelectorAll(".nav-devs-span")[0];
+    let devsSpan = document.querySelectorAll(".header-devs-container")[0];
     let navbar = document.querySelectorAll(".header-navbar")[0];
     let burgerIcon = document.querySelectorAll(".burger-menu")[0];
     let devsInput = document.querySelectorAll(".toggler")[0];
     let dropdownMenu = document.querySelectorAll(".navbar-dropdown")[0];
+
 
     devsInput.style.top = devsSpan.offsetTop + "px";
     devsInput.style.left = devsSpan.offsetLeft + "px";

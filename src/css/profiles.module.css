@@ -9,6 +9,16 @@
     padding-top: 100px;
 }
 
+.container img{
+    width: 370px !important;
+    height: 370px !important;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .textStyle {
     background-color: white;
     color: black;
@@ -21,30 +31,28 @@
 .icons {
     display: flex;
     flex-direction: start;
-    justify-content: space-between;
-    width: 55%;
-    
-
 }
 
 .iconContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
-
+    width: 75px;
+    height: 75px;
     background-color: rgb(14, 12, 12);
-    border: solid black 1px;
-    border-radius: 60px;
-    
-    
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.2s;
+    margin-right: 16px;
+}
+
+.iconContainer:hover {
+    transform: scale(1.15);
 }
 
 .iconLogo {
     color: white;
-
-
 }
 
 .text {
@@ -66,4 +74,8 @@
     margin-top: 70px;
     margin-bottom: 70px;
     margin-left: 10% !important;
+}
+
+.textMail {
+    color: grey;
 }

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function Section() {
     return (
         <section id="section">
-            <h2>Vårat Team!</h2>
+            <h2>Vårt Team!</h2>
             <hr />
             <div className="cardProfile">
                 <img src={PicAlex} alt="Profile pic"/>
@@ -27,7 +27,7 @@ export default function Section() {
                         <i className="fab fa-java fa-5x"></i>
                         <p><strong>C#</strong></p>
                     </div>
-                    <div className="centerButton"><Link to="/Alexander" className="readMore">Läs mer!</Link></div>
+                    <div className="centerButton"><Link to="/profile-alex" className="readMore">Läs mer!</Link></div>
                 </div>
             </div>
 
@@ -43,11 +43,10 @@ export default function Section() {
                         <i className="fab fa-js-square fa-5x"></i>
                         <i className="fab fa-react fa-5x"></i>
                     </div>
-                    <div className="centerButton"><Link to="/Sofia" className="readMore">Läs mer!</Link></div>
+                    <div className="centerButton"><Link to="/profile-sofia" className="readMore">Läs mer!</Link></div>
                 </div>
                 <img src={PicSofia} alt="Profile pic"/>
             </div>
-
             <div className="cardProfile">
                 <img src={PicOssian} alt="Profile pic"/>
                 <div className="cardText">
@@ -61,7 +60,7 @@ export default function Section() {
                         <i className="fab fa-js-square fa-5x"></i>
                         <i className="fab fa-react fa-5x"></i>
                     </div>
-                    <div className="centerButton"><Link to="/Ossian" className="readMore">Läs mer!</Link></div>
+                    <div className="centerButton"><Link to="/profile-ossian" className="readMore">Läs mer!</Link></div>
                 </div>
             </div>
 
@@ -69,14 +68,9 @@ export default function Section() {
                 <div className="cardTextReverted">
                     <h3>Kevin Angleborn</h3>
                     <p>
-        
-                    I denna utbildning får jag specialiserade kunskaper inom ostronslurpning av karismatisk karaktär men också överblick över angränsande 
-                    områden som projektledning, testning, backendutvidgning med AN/US. Jag kommer att få erfarenhet utav att arbeta med att planera, utföra samt 
-                    identifiera resurser för att kunna utveckla säkra webbapplikationer med interaktivitet och responsivt innehåll.
-
-                    {/* Efter utbildningen är målet att jag självständigt ska kunna ansvara för frontendutvecklingen i ett webbprojekt 
+                     Efter utbildningen är målet att jag självständigt ska kunna ansvara för frontendutvecklingen i ett webbprojekt 
                     med särskilt fokus på säkerhetsaspekter och vara delaktig i kvalitetssäkring av webbutvecklingsarbetet genom att övervaka och följa upp att projektet 
-                    levererar det som definierats enligt kravspecifikation, samt vid behov kommunicera problem och ge förslag på lösningar. */}
+                    levererar det som definierats enligt kravspecifikation, samt vid behov kommunicera problem och ge förslag på lösningar.
                     </p>
                     <div className="iconsReverted">
                         <i className="fa fa-html5 fa-5x"></i>
@@ -84,7 +78,7 @@ export default function Section() {
                         <i className="fab fa-js-square fa-5x"></i>
                         <i className="fab fa-react fa-5x"></i>
                     </div>
-                    <div className="centerButton"><Link to="/Kevin" className="readMore">Läs mer!</Link></div>
+                    <div className="centerButton"><Link to="/profile-kevin" className="readMore">Läs mer!</Link></div>
                 </div>
                 <img src={PicKevin} alt="Profile pic"/>
             </div>
@@ -104,7 +98,7 @@ export default function Section() {
                         <i className="fab fa-python fa-5x"></i>
                         <p><strong>C#</strong></p>
                     </div>
-                    <div className="centerButton"><Link to="/Timmie" className="readMore">Läs mer!</Link></div>
+                    <div className="centerButton"><Link to="/profile-timmie" className="readMore">Läs mer!</Link></div>
                 </div>
             </div>
         </section>

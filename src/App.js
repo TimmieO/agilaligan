@@ -9,6 +9,7 @@ import Ossian from './Pages/Profiles/Ossian';
 import Sofia from './Pages/Profiles/Sofia';
 import Timmie from './Pages/Profiles/Timmie';
 import Footer from "./components/Footer";
+import ScrollTop from './components/ScrollTop'
 import { 
   Route, 
   BrowserRouter as Router, 
@@ -16,10 +17,12 @@ import {
   } from "react-router-dom";
 
 export default function App() {
+
     return (
-      <Router>
+      <Router> 
         <div className="App">
           <Navbar />
+            <ScrollTop />
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/profile-alex" component={Alexander} />
